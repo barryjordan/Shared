@@ -14,7 +14,7 @@ The new user is created and licensed, and the assigned randomly generated passwo
 Connect-MgGraph -Scopes "User.ReadWrite.All", "Group.ReadWrite.All"
 
 # Group ID to which users will be added (replace with your actual group ID)
-$groupId = "92cddc08-df46-4789-8c15-f1bc5bdc4de8"
+$groupId = "< enter group id here >"
 
 $datetag = (Get-Date -Format yyyyMMdd-hhmm)
 $logFilePath = ".\NewUser-"+$datetag+".log" <#adjust log file location if needed #>
